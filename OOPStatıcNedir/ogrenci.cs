@@ -15,10 +15,14 @@ namespace OOPStatıcNedir
         public void Test1()
         {
             Console.WriteLine("Nesne örneği alındıktan sonra çalışan metot");
+            Test2();
+            //*Static olmayan bir metot static olan bir metotu çağırabilir.
         }
         public static void Test2()
         {
             Console.WriteLine("Nesne örneği ALINMADAN kullanıla bilir.");
+            //Test1
+            // * Static olan bir metot Static olmayan bir metotu VB.. çağıramaz.
         }
     }
 }
